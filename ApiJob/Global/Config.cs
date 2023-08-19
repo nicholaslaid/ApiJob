@@ -10,7 +10,7 @@ namespace ApiJob.Global
         public enum ErrorCode
         {
             UnhandledException = 1,
-            UnkownError = 2,
+            UnknownError = 2,
             JobNotFoundError = 3
         }
     
