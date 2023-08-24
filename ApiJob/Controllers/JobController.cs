@@ -149,6 +149,7 @@ namespace ApiJob.Controllers
                 if (idx >= 0)
                 {
                     Config.tempLisJob.RemoveAt(idx);
+                    result.success = true; 
                 }
                 else
                 {
